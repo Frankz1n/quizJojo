@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.startQuiz {
+  background-color: #f6f6f6;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+  flex-direction: column;
+  border-radius: 16px;
+  gap: 32px;
+  padding: 32px;
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+}
+
+.startQuiz h1 {
+  color: #444040;
+  font-size: 32px;
+}
+
+.startQuiz img {
+  width: 70%;
+  border-radius: 16px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.startQuiz button {
+  background-color: #5D2E8C;
+  color: #f6f6f6;
+  padding: 16px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.startQuiz button:hover {
+  background-color: #452169;
+  transform: scale(1.03);
+}
