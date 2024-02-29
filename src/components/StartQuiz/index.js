@@ -1,13 +1,15 @@
-import "./StartQuiz.css"
+import "./StartQuiz.css";
 
-function StartQuiz () {
+function StartQuiz() {
   return (
     <section className="startQuiz">
       <h1>Descubra qual seu stand de Jojo</h1>
-      <img src="/imgs/jojo.jpg" alt="Imagem colorida dos protagonistas de todas as temporadas de jojo"/>
-      <button>Iniciar quiz</button>
+      <img
+        src="/imgs/jojo.jpg"
+        alt="Imagem colorida dos protagonistas de todas as temporadas de jojo"
+      />
     </section>
-  )
+  );
 }
 
-export default StartQuiz
+export default StartQuiz;

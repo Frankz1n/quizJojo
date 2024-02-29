@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+* {
+  font-family: "Anta", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +32,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+button {
+  background-color: #f6f6f6;
+  color: #5d2e8c;
+  padding: 16px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+button:hover {
+  background-color: #f591f5;
+  transform: scale(1.03);
 }
 
 @keyframes App-logo-spin {
