@@ -1,0 +1,28 @@
+.btn-modal > h2 {
+  color: #444040;
+  font-size: 25px;
+}
+
+.btn-modal {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  background-color: #d989c3;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.btn-modal:hover {
+  background-color: #ec90d1;
+  transform: scale(1.03);
+}
+
+.btn-modal > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 16px;
+}
+

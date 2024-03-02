@@ -1,22 +1,21 @@
 .startQuiz {
-  background-color: #f6f6f6;
-  width: 80%;
+  width: 70%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2% auto;
+  margin: 0 auto;
   flex-direction: column;
   border-radius: 16px;
-  gap: 32px;
+  gap: 16px;
   padding: 32px;
   box-sizing: border-box;
   font-family: "Anta", sans-serif;
 }
 
 .startQuiz h1 {
-  color: #444040;
-  font-size: 32px;
+  color: #f6f6f6;
+  font-size: 48px;
 }
 
 .startQuiz img {
