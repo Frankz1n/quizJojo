@@ -19,7 +19,22 @@
 }
 
 .startQuiz img {
-  width: 70%;
+  width: 75%;
+  height: 20em;
   border-radius: 16px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 428px) {
+  .startQuiz h1 {
+    color: #f6f6f6;
+    font-size: 35px;
+  }
+
+  .startQuiz img {
+    width: 100%;
+    height: 20%;
+    border-radius: 16px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  }
 }
