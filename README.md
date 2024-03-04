@@ -4,5 +4,5 @@ Este projeto está sendo criado usando as tecnologias HTML, CSS e React.js, nele
 
 ## Desenvolvedores do projeto
 
-Daniela Felipe Soares: [https://github.com/Danifeares]
-Franklyn Lima: [https://github.com/Frankz1n]
+Daniela Felipe Soares: https://github.com/Danifeares
+Franklyn Lima: https://github.com/Frankz1n
