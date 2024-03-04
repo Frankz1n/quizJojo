@@ -1,6 +1,7 @@
 import "./App.css";
 import ModalOne from "./components/ModalOne";
 import ModalTwo from "./components/ModalTwo";
+import ResultQuiz from "./components/ResultQuiz";
 import StartQuiz from "./components/StartQuiz";
 import { useState } from "react";
 
@@ -25,9 +26,10 @@ function App() {
   console.log({ openModal }, { currentQuestion }, { answer });
 
   const modals = {
-    1: <ModalOne handleSelectQuestion={handleSelectQuestion} />,
-    2: <ModalTwo handleSelectQuestion={handleSelectQuestion} />,
-  };
+    1: <ModalOne handleSelectQuestion={handleSelectQuestion}/>,
+    2: <ModalTwo handleSelectQuestion={handleSelectQuestion}/>,
+    3: <ResultQuiz answer={answer}/>
+  }
 
   return (
     <div className="App">
