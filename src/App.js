@@ -12,35 +12,28 @@ function App() {
     optionTwo: 0,
     optionThree: 0,
     optionFour: 0,
-  })
-
+  });
 
   const handleSelectQuestion = (optionQuestion, nextQuestion) => {
     setAnswer({
       ...answer,
-      [optionQuestion]: answer[optionQuestion] + 1 
-    })
-    setCurrentQuestion(nextQuestion)
-  }
+      [optionQuestion]: answer[optionQuestion] + 1,
+    });
+    setCurrentQuestion(nextQuestion);
+  };
 
-  console.log({openModal}, {currentQuestion}, {answer})
+  console.log({ openModal }, { currentQuestion }, { answer });
 
   const modals = {
-    1: <ModalOne
-    handleSelectQuestion={handleSelectQuestion}
-    />,
-    2: <ModalTwo 
-    handleSelectQuestion={handleSelectQuestion}
-  />
-  }
+    1: <ModalOne handleSelectQuestion={handleSelectQuestion} />,
+    2: <ModalTwo handleSelectQuestion={handleSelectQuestion} />,
+  };
 
   return (
     <div className="App">
       <StartQuiz />
       <button onClick={() => setOpenModal(true)}>Iniciar quiz</button>
-      {
-        openModal && modals[currentQuestion]
-      }
+      {openModal && modals[currentQuestion]}
     </div>
   );
 }
