@@ -13,7 +13,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #f6f6f6;
-  width: 60%;
+  width: 70%;
   height: 80%;
   border-radius: 16px;
   display: flex;
@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
+  gap: 10px;
 }
 
 .modal > h1 {
@@ -34,8 +35,8 @@
 }
 
 .btn-modal {
-  width: 30%;
-  height: 70%;
+  width: 40%;
+  height: 80%;
   box-sizing: border-box;
   border: none;
   border-radius: 16px;
@@ -47,7 +48,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
 }
 
 .btn-modal > img {
@@ -69,17 +69,103 @@
   gap: 25px;
 }
 
-@media screen and (max-width: 428px) {
+/* TELAS MENORES QUE 1172px  */
+
+@media (max-width: 1172px) {
+  .modal {
+    padding: 10rem;
+    width: 60%;
+    height: 50%;
+  }
+
+  .btn-modal {
+    width: 70%;
+  }
+}
+
+/* TELAS MENORES QUE 852px  */
+
+@media (max-width: 857px) {
+  .modal {
+    width: 40%;
+  }
+
+  .modal > h1 {
+    width: max-content;
+  }
+
+  .btn-modal {
+    width: 70%;
+  }
+}
+
+/* TELAS MENORES QUE 654px  */
+
+@media (max-width: 654px) {
+  .modal {
+    width: 40%;
+  }
+
+  .modal > h1 {
+    width: max-content;
+  }
+
+  .btn-modal {
+    width: 90%;
+  }
+}
+
+/* TELAS MENORES QUE 560px  */
+
+@media (max-width: 560px) {
+  .modal {
+    width: 20%;
+    height: 40%;
+  }
+
+  .modal > h1 {
+    color: #444040;
+    font-size: 25px;
+    width: max-content;
+  }
+
+  .btn-modal {
+    width: 200%;
+  }
+}
+
+/* TELAS MENORES QUE 490px  */
+
+@media (max-width: 490px) {
+  .modal {
+    width: 10%;
+  }
+
+  .modal > h1 {
+    font-size: 25px;
+  }
+
+  .btn-modal {
+    width: 400%;
+  }
+
+  .btn-modal > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 375px) {
   .modal {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #f6f6f6;
-    padding: 4rem;
     border-radius: 16px;
-    width: 60%;
-    height: 50%;
+    width: 10%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,14 +175,20 @@
 
   .modal > h1 {
     color: #444040;
-    font-size: 26px;
-    margin: 0;
-    margin-top: 25px;
+    font-size: 20px;
+    width: max-content;
+  }
+
+  .modal-div {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .btn-modal {
     width: 70%;
-    height: 60%;
+    height: 70%;
     box-sizing: border-box;
     border: none;
     border-radius: 16px;
