@@ -1,6 +1,7 @@
 import "./App.css";
 import ModalOne from "./components/ModalOne";
 import ModalTwo from "./components/ModalTwo";
+import ResultQuiz from "./components/ResultQuiz";
 import StartQuiz from "./components/StartQuiz";
 import { useState } from "react";
 
@@ -31,7 +32,8 @@ function App() {
     />,
     2: <ModalTwo 
     handleSelectQuestion={handleSelectQuestion}
-  />
+  />,
+  3: <ResultQuiz answer={answer}/>
   }
 
   return (
