@@ -1,8 +1,10 @@
+import './ShowStandResult.css'
+
 const ShowStandResult = ({title, img, alt, description, onClick}) => {
 
   return (
-    <div>
-      <h2>{title}</h2>
+    <div className="modal-stand">
+      <h1>{title}</h1>
       <img
         src={img}
         alt={alt}
