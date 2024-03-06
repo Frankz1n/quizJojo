@@ -12,7 +12,7 @@
 }
 
 button {
-  background-color: #f6f6f6;
+  background-color: #c6bfbf;
   color: #5d2e8c;
   padding: 16px;
   font-weight: 700;
@@ -25,6 +25,6 @@ button {
 }
 
 button:hover {
-  background-color: #f591f5;
+  background-color: #a5a1a1;
   transform: scale(1.03);
 }

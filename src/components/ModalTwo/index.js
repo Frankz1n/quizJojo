@@ -3,7 +3,6 @@ import "../ModalOne/ModalOne.css";
 
 const ModalTwo = ({ handleSelectQuestion }) => {
   return (
-    <div className="backgorund-modal">
       <div className="modal">
         <h1>Escolha sua comida preferida</h1>
         <div className="modal-div">
@@ -35,7 +34,6 @@ const ModalTwo = ({ handleSelectQuestion }) => {
           />
         </div>
       </div>
-    </div>
   );
 };
 
