@@ -29,13 +29,13 @@ function App() {
   console.log({ openModal }, { currentQuestion }, { answer });
 
   const modals = {
-    1: <ModalOne handleSelectQuestion={handleSelectQuestion}/>,
-    2: <ModalTwo handleSelectQuestion={handleSelectQuestion}/>,
-    3: <ModalThree handleSelectQuestion={handleSelectQuestion}/>,
-    4: <ModalFour handleSelectQuestion={handleSelectQuestion}/>,
-    5: <ModalFive handleSelectQuestion={handleSelectQuestion}/>,
-    6: <ResultQuiz answer={answer}/>
-  }
+    1: <ModalOne handleSelectQuestion={handleSelectQuestion} />,
+    2: <ModalTwo handleSelectQuestion={handleSelectQuestion} />,
+    3: <ModalThree handleSelectQuestion={handleSelectQuestion} />,
+    4: <ModalFour handleSelectQuestion={handleSelectQuestion} />,
+    5: <ModalFive handleSelectQuestion={handleSelectQuestion} />,
+    6: <ResultQuiz answer={answer} />,
+  };
 
   return (
     <div className="App">
