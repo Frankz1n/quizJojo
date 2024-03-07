@@ -1,5 +1,8 @@
 import "./App.css";
+import ModalFive from "./components/ModalFive";
+import ModalFour from "./components/ModalFour";
 import ModalOne from "./components/ModalOne";
+import ModalThree from "./components/ModalThree";
 import ModalTwo from "./components/ModalTwo";
 import ResultQuiz from "./components/ResultQuiz";
 import StartQuiz from "./components/StartQuiz";
@@ -28,7 +31,10 @@ function App() {
   const modals = {
     1: <ModalOne handleSelectQuestion={handleSelectQuestion}/>,
     2: <ModalTwo handleSelectQuestion={handleSelectQuestion}/>,
-    3: <ResultQuiz answer={answer}/>
+    3: <ModalThree handleSelectQuestion={handleSelectQuestion}/>,
+    4: <ModalFour handleSelectQuestion={handleSelectQuestion}/>,
+    5: <ModalFive handleSelectQuestion={handleSelectQuestion}/>,
+    6: <ResultQuiz answer={answer}/>
   }
 
   return (
