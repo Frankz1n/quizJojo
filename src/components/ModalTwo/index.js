@@ -4,32 +4,32 @@ import "../ModalOne/ModalOne.css";
 const ModalTwo = ({ handleSelectQuestion }) => {
   return (
       <div className="modal">
-        <h1>Escolha sua comida preferida</h1>
+        <h1>Escolha um super-poder:</h1>
         <div className="modal-div">
           <OptionQuestionButton
-            title={"Pizza2"}
-            img={"/imgs/modal1/pizza.png"}
-            alt={"imagem de uma pizza"}
+            title={"Super força"}
+            img={"/imgs/modal2/forca.png"}
+            alt={"imagem de uma formiga segurando um galho bem maior que ela."}
             onClick={() => handleSelectQuestion("optionOne", 3)}
           />
           <OptionQuestionButton
-            title={"Hamburguer2"}
-            img={"/imgs/modal1/hamburguer.png"}
-            alt={"imagem de um hamburguer"}
+            title={"Controlar o tempo"}
+            img={"/imgs/modal2/controlar tempo.png"}
+            alt={"imagem de um grande relógio sendo erguido por mãos femininas."}
             onClick={() => handleSelectQuestion("optionTwo", 3)}
           />
         </div>
         <div className="modal-div">
           <OptionQuestionButton
-            title={"Massa2"}
-            img={"/imgs/modal1/massa.png"}
-            alt={"imagem de uma massa"}
+            title={"Voar"}
+            img={"/imgs/modal2/voar.png"}
+            alt={"imagem de pássaros voando com o pôr do sol ao fundo."}
             onClick={() => handleSelectQuestion("optionThree", 3)}
           />
           <OptionQuestionButton
-            title={"Estrogonofe2"}
-            img={"/imgs/modal1/estrogonofe.png"}
-            alt={"imagem de um estrogonofe"}
+            title={"Ler mentes"}
+            img={"/imgs/modal2/ler mente.png"}
+            alt={"desenho de duas pessoas com ênfase em seus cérebros, ambos conectados, representando a leitura de mente."}
             onClick={() => handleSelectQuestion("optionFour", 3)}
           />
         </div>
