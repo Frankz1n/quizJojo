@@ -30,7 +30,7 @@ const ModalFour = ({ handleSelectQuestion }) => {
             title={"Estrogonofe4"}
             img={"/imgs/modal1/estrogonofe.png"}
             alt={"imagem de um estrogonofe"}
-            onClick={() => handleSelectQuestion("optionFour", 6)}
+            onClick={() => handleSelectQuestion("optionFour", 5)}
           />
         </div>
       </div>
