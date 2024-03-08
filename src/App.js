@@ -26,8 +26,6 @@ function App() {
     setCurrentQuestion(nextQuestion);
   };
 
-  console.log({ openModal }, { currentQuestion }, { answer });
-
   const modals = {
     1: <ModalOne handleSelectQuestion={handleSelectQuestion} />,
     2: <ModalTwo handleSelectQuestion={handleSelectQuestion} />,
