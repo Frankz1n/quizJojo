@@ -1,9 +1,9 @@
 import "./App.css";
-import ModalFive from "./components/ModalFive";
-import ModalFour from "./components/ModalFour";
-import ModalOne from "./components/ModalOne";
-import ModalThree from "./components/ModalThree";
-import ModalTwo from "./components/ModalTwo";
+import ModalFive from "./components/Modals/ModalFive";
+import ModalFour from "./components/Modals/ModalFour";
+import ModalOne from "./components/Modals/ModalOne";
+import ModalThree from "./components/Modals/ModalThree";
+import ModalTwo from "./components/Modals/ModalTwo";
 import ResultQuiz from "./components/ResultQuiz";
 import StartQuiz from "./components/StartQuiz";
 import { useState } from "react";

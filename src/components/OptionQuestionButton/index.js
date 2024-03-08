@@ -1,4 +1,4 @@
-import "../ModalOne/ModalOne.css";
+import "../Modals/ModalOne/ModalOne.css";
 
 const OptionQuestionButton = ({ title, img, alt, onClick }) => {
   return (
