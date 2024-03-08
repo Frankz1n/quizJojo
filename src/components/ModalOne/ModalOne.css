@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .modal {
   position: fixed;
   top: 50%;
@@ -19,6 +28,7 @@
 .modal>h1 {
   color: #201e1e;
   font-size: 36px;
+  animation: fadeIn 0.5s ease; 
 }
 
 .modal-div {
@@ -27,6 +37,7 @@
   align-items: center;
   justify-content: center;
   gap: 3%;
+  animation: fadeIn 0.5s ease; 
 }
 
 .btn-modal>h2 {
