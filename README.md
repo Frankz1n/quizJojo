@@ -19,20 +19,17 @@ O projeto é um desafio apresentado no programa de estágio Rocket.up, e tem por
 ### Execução
 
 **Desktop:**
-```
-to-do: adicionar prints em telas grandes:
-- tela inicial
-- Primeiro modal
-- Modal de resposta
-```
+
+![image](https://github.com/Frankz1n/quizJojo/assets/117787402/4a4851d7-695a-46c3-ac20-8380f55b8c5c)
+![image](https://github.com/Frankz1n/quizJojo/assets/117787402/b755b486-e763-413a-96c2-0ab8373815c8)
+![image](https://github.com/Frankz1n/quizJojo/assets/117787402/4cb59ccf-b536-44fa-bf5d-74ac868bdba7)
 
 **Mobile:**
-```
-to-do: adicionar prints em dispositivo móvel:
-- tela inicial
-- Primeiro modal
-- Modal de resposta
-```
+
+![image](https://github.com/Frankz1n/quizJojo/assets/117787402/2c7108ff-7383-4ed1-b66f-9fcbed74bc62)
+![image](https://github.com/Frankz1n/quizJojo/assets/117787402/4efc9097-c9ef-4f40-938d-cd43acc4127e)
+![image](https://github.com/Frankz1n/quizJojo/assets/117787402/e2616d2d-674b-45c6-955f-2fc7b78b6b4a)
+
 
 ## Desenvolvedores:
 
