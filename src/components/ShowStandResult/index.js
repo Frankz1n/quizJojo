@@ -1,6 +1,6 @@
 import "./ShowStandResult.css";
 
-const ShowStandResult = ({ title, img, alt, description, dispatch }) => {
+const ShowStandResult = ({ title, img, alt, description }) => {
   const Restart = () => {
     location.reload();
   };
